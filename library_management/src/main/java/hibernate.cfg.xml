@@ -11,8 +11,8 @@
 <property name="show_sql">true</property>
 <property name="format_sql">true</property>
 <property name="hibernate.current_session_context_class">thread</property>
-<mapping class="com.library.Login"/>
-<mapping class="com.library.Registration"/>
-<mapping class="com.library.Library"/>
+<mapping class="com.library.entity.Login"/>
+<mapping class="com.library.entity.Registration"/>
+<mapping class="com.library.entity.Library"/>
 </session-factory>
 </hibernate-configuration>
